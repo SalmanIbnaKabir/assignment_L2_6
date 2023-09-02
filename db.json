@@ -1,0 +1,628 @@
+{
+  "products": [
+    {
+      "name": "Intel Core i9-10900K",
+      "image": "https://via.placeholder.com/300",
+
+      "category": "CPU / Processor",
+      "status": true,
+      "price": 449.99,
+      "description": "The Intel Core i9-10900K is a high-performance CPU for gaming and content creation.",
+      "keyFeatures": {
+        "Brand": "Intel",
+        "Model": "Core i9-10900K",
+        "Specification": "10 cores, 20 threads",
+        "Socket": "LGA 1200",
+        "Clock Speed": "3.7 GHz base, 5.3 GHz turbo",
+        "TDP": "125W"
+      },
+      "individualRating": 4.5,
+      "averageRating": 4.3,
+      "reviews": [
+        {
+          "username": "User1",
+          "rating": 4,
+          "comment": "Great performance but runs hot."
+        },
+        {
+          "username": "User2",
+          "rating": 5,
+          "comment": "Best CPU for gaming!"
+        },
+        {
+          "username": "User3",
+          "rating": 5,
+          "comment": "Excellent choice for video editing."
+        }
+      ]
+    },
+    {
+      "name": "AMD Ryzen 7 5800X",
+      "image": "https://via.placeholder.com/300",
+      "category": "CPU / Processor",
+      "status": true,
+      "price": 399.99,
+      "description": "The AMD Ryzen 7 5800X offers excellent multi-core performance for enthusiasts.",
+      "keyFeatures": {
+        "Brand": "AMD",
+        "Model": "Ryzen 7 5800X",
+        "Specification": "8 cores, 16 threads",
+        "Socket": "AM4",
+        "Clock Speed": "3.8 GHz base, 4.7 GHz turbo",
+        "TDP": "105W"
+      },
+      "individualRating": 4.7,
+      "averageRating": 4.6,
+      "reviews": [
+        {
+          "username": "User4",
+          "rating": 4,
+          "comment": "Great value for the performance."
+        },
+        {
+          "username": "User5",
+          "rating": 5,
+          "comment": "Smooth gaming experience with this CPU."
+        },
+        {
+          "username": "User6",
+          "rating": 5,
+          "comment": "Impressive performance in a compact package."
+        }
+      ]
+    },
+    {
+      "name": "AMD Ryzen 9 5900X",
+      "image": "https://via.placeholder.com/300",
+      "category": "CPU / Processor",
+      "status": true,
+      "price": 499.99,
+      "description": "The AMD Ryzen 9 5900X is a top-tier CPU for content creators and gamers.",
+      "keyFeatures": {
+        "Brand": "AMD",
+        "Model": "Ryzen 9 5900X",
+        "Specification": "12 cores, 24 threads",
+        "Socket": "AM4",
+        "Clock Speed": "3.7 GHz base, 4.8 GHz turbo",
+        "TDP": "105W"
+      },
+      "individualRating": 4.9,
+      "averageRating": 4.8,
+      "reviews": [
+        {
+          "username": "User7",
+          "rating": 5,
+          "comment": "Outstanding CPU, worth every penny."
+        },
+        {
+          "username": "User8",
+          "rating": 5,
+          "comment": "Handles multitasking like a champ."
+        },
+        {
+          "username": "User9",
+          "rating": 4,
+          "comment": "Runs a bit hot under heavy load."
+        }
+      ]
+    },
+    {
+      "name": "ASUS ROG Strix Z590-E",
+      "image": "https://via.placeholder.com/300",
+      "category": "Motherboard",
+      "status": true,
+      "price": 299.99,
+      "description": "The ASUS ROG Strix Z590-E is a feature-packed motherboard for gamers and enthusiasts.",
+      "keyFeatures": {
+        "Brand": "ASUS",
+        "Model": "ROG Strix Z590-E",
+        "Form Factor": "ATX",
+        "Socket": "LGA 1200",
+        "Memory Support": "DDR4, up to 128GB",
+        "Connectivity": "Wi-Fi 6, Bluetooth 5.1, USB-C"
+      },
+      "individualRating": 4.7,
+      "averageRating": 4.6,
+      "reviews": [
+        {
+          "username": "User10",
+          "rating": 5,
+          "comment": "Amazing motherboard with all the features you need!"
+        },
+        {
+          "username": "User11",
+          "rating": 4,
+          "comment": "Great build quality but a bit pricey."
+        },
+        {
+          "username": "User12",
+          "rating": 4,
+          "comment": "Easy to overclock with this board."
+        }
+      ]
+    },
+    {
+      "name": "GIGABYTE B450M DS3H",
+      "image": "https://via.placeholder.com/300",
+      "category": "Motherboard",
+      "status": true,
+      "price": 89.99,
+      "description": "The GIGABYTE B450M DS3H is a budget-friendly micro-ATX motherboard.",
+      "keyFeatures": {
+        "Brand": "GIGABYTE",
+        "Model": "B450M DS3H",
+        "Form Factor": "Micro-ATX",
+        "Socket": "AM4",
+        "Memory Support": "DDR4, up to 64GB",
+        "Connectivity": "USB 3.1, HDMI, DVI-D"
+      },
+      "individualRating": 4.4,
+      "averageRating": 4.2,
+      "reviews": [
+        {
+          "username": "User13",
+          "rating": 4,
+          "comment": "Good value for budget builds."
+        },
+        {
+          "username": "User14",
+          "rating": 3,
+          "comment": "Limited overclocking capabilities."
+        },
+        {
+          "username": "User15",
+          "rating": 5,
+          "comment": "Compact motherboard with decent features."
+        }
+      ]
+    },
+    {
+      "name": "ASRock B550M PRO4",
+      "image": "https://via.placeholder.com/300",
+      "category": "Motherboard",
+      "status": true,
+      "price": 119.99,
+      "description": "The ASRock B550M PRO4 is a reliable micro-ATX motherboard with PCIe 4.0 support.",
+      "keyFeatures": {
+        "Brand": "ASRock",
+        "Model": "B550M PRO4",
+        "Form Factor": "Micro-ATX",
+        "Socket": "AM4",
+        "Memory Support": "DDR4, up to 64GB",
+        "Connectivity": "USB 3.2 Gen2, HDMI, DisplayPort"
+      },
+      "individualRating": 4.6,
+      "averageRating": 4.4,
+      "reviews": [
+        {
+          "username": "User16",
+          "rating": 5,
+          "comment": "Great motherboard for Ryzen CPUs."
+        },
+        {
+          "username": "User17",
+          "rating": 4,
+          "comment": "Good value for mid-range builds."
+        },
+        {
+          "username": "User18",
+          "rating": 4,
+          "comment": "PCIe 4.0 support is a plus."
+        }
+      ]
+    },
+    {
+      "name": "Corsair Vengeance RGB Pro",
+      "image": "https://via.placeholder.com/300",
+      "category": "RAM",
+      "status": true,
+      "price": 89.99,
+      "description": "Corsair Vengeance RGB Pro offers high-performance RAM with customizable RGB lighting.",
+      "keyFeatures": {
+        "Brand": "Corsair",
+        "Model": "Vengeance RGB Pro",
+        "Capacity": "16GB (2x8GB)",
+        "Speed": "3200MHz",
+        "CAS Latency": "16"
+      },
+      "individualRating": 4.8,
+      "averageRating": 4.7,
+      "reviews": [
+        {
+          "username": "User19",
+          "rating": 5,
+          "comment": "Stylish and fast RAM!"
+        },
+        {
+          "username": "User20",
+          "rating": 4,
+          "comment": "Good performance, but RGB software can be improved."
+        },
+        {
+          "username": "User21",
+          "rating": 5,
+          "comment": "Great RAM for gaming builds."
+        }
+      ]
+    },
+    {
+      "name": "Crucial Ballistix Sport LT",
+      "image": "https://via.placeholder.com/300",
+      "category": "RAM",
+      "status": true,
+      "price": 69.99,
+      "description": "Crucial Ballistix Sport LT is an affordable RAM kit for budget-conscious builders.",
+      "keyFeatures": {
+        "Brand": "Crucial",
+        "Model": "Ballistix Sport LT",
+        "Capacity": "16GB (2x8GB)",
+        "Speed": "2666MHz",
+        "CAS Latency": "16"
+      },
+      "individualRating": 4.2,
+      "averageRating": 4.0,
+      "reviews": [
+        {
+          "username": "User22",
+          "rating": 4,
+          "comment": "Good value for budget builds."
+        },
+        {
+          "username": "User23",
+          "rating": 3,
+          "comment": "Decent RAM for everyday use."
+        },
+        {
+          "username": "User24",
+          "rating": 4,
+          "comment": "Reliable RAM sticks."
+        }
+      ]
+    },
+    {
+      "name": "G.Skill Ripjaws V",
+      "image": "https://via.placeholder.com/300",
+      "category": "RAM",
+      "status": true,
+      "price": 109.99,
+      "description": "G.Skill Ripjaws V offers high-speed RAM for gaming and content creation.",
+      "keyFeatures": {
+        "Brand": "G.Skill",
+        "Model": "Ripjaws V",
+        "Capacity": "32GB (2x16GB)",
+        "Speed": "3600MHz",
+        "CAS Latency": "18"
+      },
+      "individualRating": 4.9,
+      "averageRating": 4.8,
+      "reviews": [
+        {
+          "username": "User25",
+          "rating": 5,
+          "comment": "Top-notch RAM for demanding tasks."
+        },
+        {
+          "username": "User26",
+          "rating": 5,
+          "comment": "Impressive speed and performance."
+        },
+        {
+          "username": "User27",
+          "rating": 4,
+          "comment": "Slightly expensive but worth it."
+        }
+      ]
+    },
+    {
+      "name": "EVGA 750 B5",
+      "image": "https://via.placeholder.com/300",
+      "category": "Power Supply Unit",
+      "status": true,
+      "price": 99.99,
+      "description": "The EVGA 750 B5 is a reliable power supply with 80 PLUS Bronze certification.",
+      "keyFeatures": {
+        "Brand": "EVGA",
+        "Model": "750 B5",
+        "Wattage": "750W",
+        "Efficiency": "80 PLUS Bronze",
+        "Modular": "Semi-modular"
+      },
+      "individualRating": 4.6,
+      "averageRating": 4.5,
+      "reviews": [
+        {
+          "username": "User28",
+          "rating": 5,
+          "comment": "Good value for the price."
+        },
+        {
+          "username": "User29",
+          "rating": 4,
+          "comment": "Reliable PSU, but could be quieter."
+        },
+        {
+          "username": "User30",
+          "rating": 4,
+          "comment": "Semi-modular design is convenient."
+        }
+      ]
+    },
+    {
+      "name": "Corsair RM750x",
+      "image": "https://via.placeholder.com/300",
+      "category": "Power Supply Unit",
+      "status": true,
+      "price": 129.99,
+      "description": "The Corsair RM750x is a high-quality power supply with 80 PLUS Gold certification.",
+      "keyFeatures": {
+        "Brand": "Corsair",
+        "Model": "RM750x",
+        "Wattage": "750W",
+        "Efficiency": "80 PLUS Gold",
+        "Modular": "Fully modular"
+      },
+      "individualRating": 4.8,
+      "averageRating": 4.7,
+      "reviews": [
+        {
+          "username": "User31",
+          "rating": 5,
+          "comment": "Top-tier PSU with a fully modular design."
+        },
+        {
+          "username": "User32",
+          "rating": 5,
+          "comment": "Reliable and efficient power supply."
+        },
+        {
+          "username": "User33",
+          "rating": 4,
+          "comment": "Slightly pricey but worth the investment."
+        }
+      ]
+    },
+    {
+      "name": "Seasonic Focus GX-550",
+      "image": "https://via.placeholder.com/300",
+      "category": "Power Supply Unit",
+      "status": true,
+      "price": 89.99,
+      "description": "The Seasonic Focus GX-550 is a compact and efficient power supply.",
+      "keyFeatures": {
+        "Brand": "Seasonic",
+        "Model": "Focus GX-550",
+        "Wattage": "550W",
+        "Efficiency": "80 PLUS Gold",
+        "Modular": "Semi-modular"
+      },
+      "individualRating": 4.5,
+      "averageRating": 4.4,
+      "reviews": [
+        {
+          "username": "User34",
+          "rating": 4,
+          "comment": "Compact and reliable PSU."
+        },
+        {
+          "username": "User35",
+          "rating": 5,
+          "comment": "Efficient power supply for mid-range builds."
+        },
+        {
+          "username": "User36",
+          "rating": 4,
+          "comment": "Good value for the wattage."
+        }
+      ]
+    },
+    {
+      "name": "Samsung 970 EVO Plus",
+      "image": "https://via.placeholder.com/300",
+      "category": "Storage Device",
+      "status": true,
+      "price": 119.99,
+      "description": "The Samsung 970 EVO Plus is a high-speed NVMe SSD for faster storage performance.",
+      "keyFeatures": {
+        "Brand": "Samsung",
+        "Model": "970 EVO Plus",
+        "Capacity": "500GB",
+        "Interface": "NVMe PCIe M.2",
+        "Read Speed": "3500MB/s",
+        "Write Speed": "3300MB/s"
+      },
+      "individualRating": 4.7,
+      "averageRating": 4.6,
+      "reviews": [
+        {
+          "username": "User37",
+          "rating": 5,
+          "comment": "Blazing fast SSD for OS and applications."
+        },
+        {
+          "username": "User38",
+          "rating": 4,
+          "comment": "Reliable Samsung SSD with great performance."
+        },
+        {
+          "username": "User39",
+          "rating": 4,
+          "comment": "Good choice for gaming and productivity."
+        }
+      ]
+    },
+    {
+      "name": "WD Blue 1TB",
+      "image": "https://via.placeholder.com/300",
+      "category": "Storage Device",
+      "status": true,
+      "price": 49.99,
+      "description": "The WD Blue 1TB HDD offers affordable and reliable storage for mass data.",
+      "keyFeatures": {
+        "Brand": "Western Digital",
+        "Model": "Blue 1TB",
+        "Capacity": "1TB",
+        "Interface": "SATA 6Gb/s",
+        "RPM": "7200"
+      },
+      "individualRating": 4.4,
+      "averageRating": 4.3,
+      "reviews": [
+        {
+          "username": "User40",
+          "rating": 4,
+          "comment": "Good value for bulk storage."
+        },
+        {
+          "username": "User41",
+          "rating": 3,
+          "comment": "Average HDD, decent performance."
+        },
+        {
+          "username": "User42",
+          "rating": 5,
+          "comment": "Reliable and spacious HDD."
+        }
+      ]
+    },
+    {
+      "name": "Crucial MX500 1TB",
+      "image": "https://via.placeholder.com/300",
+      "category": "Storage Device",
+      "status": true,
+      "price": 89.99,
+      "description": "The Crucial MX500 1TB SSD offers a balance of performance and capacity.",
+      "keyFeatures": {
+        "Brand": "Crucial",
+        "Model": "MX500 1TB",
+        "Capacity": "1TB",
+        "Interface": "SATA 6Gb/s",
+        "Read Speed": "560MB/s",
+        "Write Speed": "510MB/s"
+      },
+      "individualRating": 4.5,
+      "averageRating": 4.4,
+      "reviews": [
+        {
+          "username": "User43",
+          "rating": 5,
+          "comment": "Solid SSD for general use and gaming."
+        },
+        {
+          "username": "User44",
+          "rating": 4,
+          "comment": "Affordable and reliable storage upgrade."
+        },
+        {
+          "username": "User45",
+          "rating": 4,
+          "comment": "Good SSD for the price."
+        }
+      ]
+    },
+    {
+      "name": "ASUS VG279Q",
+      "image": "https://via.placeholder.com/300",
+      "category": "Monitor",
+      "status": true,
+      "price": 299.99,
+      "description": "The ASUS VG279Q is a 27-inch gaming monitor with a fast refresh rate.",
+      "keyFeatures": {
+        "Brand": "ASUS",
+        "Model": "VG279Q",
+        "Size": "27 inches",
+        "Resolution": "1920x1080",
+        "Refresh Rate": "144Hz",
+        "Response Time": "1ms"
+      },
+      "individualRating": 4.6,
+      "averageRating": 4.5,
+      "reviews": [
+        {
+          "username": "User46",
+          "rating": 5,
+          "comment": "Smooth gaming experience with this monitor."
+        },
+        {
+          "username": "User47",
+          "rating": 4,
+          "comment": "Great value for a 144Hz monitor."
+        },
+        {
+          "username": "User48",
+          "rating": 4,
+          "comment": "Good color accuracy and fast response time."
+        }
+      ]
+    },
+    {
+      "name": "Dell U2719D",
+      "image": "https://via.placeholder.com/300",
+      "category": "Monitor",
+      "status": true,
+      "price": 349.99,
+      "description": "The Dell U2719D is a 27-inch QHD monitor with an IPS panel for accurate colors.",
+      "keyFeatures": {
+        "Brand": "Dell",
+        "Model": "U2719D",
+        "Size": "27 inches",
+        "Resolution": "2560x1440",
+        "Refresh Rate": "60Hz",
+        "Panel Type": "IPS"
+      },
+      "individualRating": 4.7,
+      "averageRating": 4.6,
+      "reviews": [
+        {
+          "username": "User49",
+          "rating": 5,
+          "comment": "Excellent monitor for design work."
+        },
+        {
+          "username": "User50",
+          "rating": 4,
+          "comment": "Clear and vibrant display, but limited refresh rate."
+        },
+        {
+          "username": "User51",
+          "rating": 5,
+          "comment": "Great for productivity and content creation."
+        }
+      ]
+    },
+    {
+      "name": "LG 27UK850-W",
+      "image": "https://via.placeholder.com/300",
+      "category": "Monitor",
+      "status": true,
+      "price": 449.99,
+      "description": "The LG 27UK850-W is a 27-inch 4K monitor with USB-C connectivity.",
+      "keyFeatures": {
+        "Brand": "LG",
+        "Model": "27UK850-W",
+        "Size": "27 inches",
+        "Resolution": "3840x2160",
+        "Refresh Rate": "60Hz",
+        "Connectivity": "USB-C, HDR"
+      },
+      "individualRating": 4.8,
+      "averageRating": 4.7,
+      "reviews": [
+        {
+          "username": "User52",
+          "rating": 5,
+          "comment": "Outstanding 4K monitor for work and play."
+        },
+        {
+          "username": "User53",
+          "rating": 5,
+          "comment": "USB-C is a game-changer for connectivity."
+        },
+        {
+          "username": "User54",
+          "rating": 4,
+          "comment": "Great color accuracy, but 60Hz refresh rate."
+        }
+      ]
+    }
+  ]
+}
