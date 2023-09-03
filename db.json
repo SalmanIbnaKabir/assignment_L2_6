@@ -4,7 +4,7 @@
       "name": "Intel Core i9-10900K",
       "image": "https://via.placeholder.com/300",
 
-      "category": "CPU / Processor",
+      "category": "Processor",
       "status": true,
       "price": 449.99,
       "description": "The Intel Core i9-10900K is a high-performance CPU for gaming and content creation.",
@@ -39,7 +39,7 @@
     {
       "name": "AMD Ryzen 7 5800X",
       "image": "https://via.placeholder.com/300",
-      "category": "CPU / Processor",
+      "category": "Processor",
       "status": true,
       "price": 399.99,
       "description": "The AMD Ryzen 7 5800X offers excellent multi-core performance for enthusiasts.",
@@ -74,7 +74,7 @@
     {
       "name": "AMD Ryzen 9 5900X",
       "image": "https://via.placeholder.com/300",
-      "category": "CPU / Processor",
+      "category": "Processor",
       "status": true,
       "price": 499.99,
       "description": "The AMD Ryzen 9 5900X is a top-tier CPU for content creators and gamers.",

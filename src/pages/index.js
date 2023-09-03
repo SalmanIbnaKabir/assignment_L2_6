@@ -5,7 +5,30 @@ import ProductCard from "./component/UI/ProductCard";
 import CategoryCard from "./component/UI/CategoryCard";
 
 export default function HomePage({ products }) {
-  const arr = [1, 2, 3, 4, 5, 6, 7];
+  const categoryData = [
+    {
+      name: "CPU / Processor",
+      href: "/category/processor",
+      image: "/image/processor.png",
+    },
+    {
+      name: "Motherboard",
+      href: "/category/motherboard",
+      image: "/image/motherboard.png",
+    },
+    { name: "RAM", href: "/category/ram", image: "/image/ram.png" },
+    {
+      name: "Power Supply Unit",
+      href: "/category/power-supply-unit",
+      image: "/image/power-supply-unit.png",
+    },
+    {
+      name: "Storage Device",
+      href: "/category/storage-device",
+      image: "/image/storage-device.png",
+    },
+    { name: "Monitor", href: "/category/monitor", image: "/image/monitor.png" },
+  ];
 
   const limitProducts = products.slice(0, 8);
   return (
@@ -24,8 +47,8 @@ export default function HomePage({ products }) {
           Featured Category
         </h1>
         <div className="flex flex-wrap gap-4 md:container my-5 mx-auto">
-          {arr.map((a) => (
-            <CategoryCard key={a} />
+          {categoryData.map((category) => (
+            <CategoryCard key={category.href} category={category} />
           ))}
         </div>
       </div>
@@ -37,12 +60,13 @@ HomePage.getLayout = function getLayout(page) {
   return <RootLayout>{page}</RootLayout>;
 };
 
+const url = process.env.URL;
 // products SSG get
 export const getStaticProps = async () => {
-  const res = await fetch("http://localhost:5000/products");
+  const res = await fetch(`${url}/products`);
   const data = await res.json();
 
-  console.log(data.data);
+  // console.log(data.data);
 
   return {
     props: {

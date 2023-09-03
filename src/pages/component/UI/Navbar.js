@@ -1,5 +1,7 @@
 "use client";
 
+import Link from "next/link";
+
 export default function Navbar() {
   return (
     <div className="navbar bg-indigo-500 text-white">
@@ -29,58 +31,88 @@ export default function Navbar() {
               <a>Categories</a>
               <ul className="p-2">
                 <li>
-                  <a>CPU / Processor</a>
+                  <Link href="/category/processor">
+                    <p>CPU / Processor</p>
+                  </Link>
                 </li>
                 <li>
-                  <a>Motherboard</a>
+                  <Link href="/category/motherboard">
+                    <p>Motherboard</p>
+                  </Link>
                 </li>
                 <li>
-                  <a>RAM</a>
+                  <Link href="/category/ram">
+                    <p>RAM</p>
+                  </Link>
                 </li>
                 <li>
-                  <a>Power Supply Unit</a>
+                  <Link href="/category/power-supply-unit">
+                    <p>Power Supply Unit</p>
+                  </Link>
                 </li>
                 <li>
-                  <a>Storage Device</a>
+                  <Link href="/category/storage-device">
+                    <p>Storage Device</p>
+                  </Link>
                 </li>
                 <li>
-                  <a>Monitor</a>
+                  <Link href="/category/monitor">
+                    <p>Monitor</p>
+                  </Link>
                 </li>
                 <li>
-                  <a>Others</a>
+                  <Link href="/">
+                    <p>Others</p>
+                  </Link>
                 </li>
               </ul>
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl">SIK</a>
+        <Link href="/">
+          <p className="btn btn-ghost normal-case text-xl">SIK</p>
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li tabIndex={1}>
             <details>
               <summary className="font-semibold ">Categories</summary>
-              <ul className="p-2  text-black  ">
+              <ul className="p-2  text-black z-20 ">
                 <li>
-                  <a>CPU / Processor</a>
+                  <Link href="/category/processor">
+                    <p>CPU / Processor</p>
+                  </Link>
                 </li>
                 <li>
-                  <a>Motherboard</a>
+                  <Link href="/category/motherboard">
+                    <p>Motherboard</p>
+                  </Link>
                 </li>
                 <li>
-                  <a>RAM</a>
+                  <Link href="/category/ram">
+                    <p>RAM</p>
+                  </Link>
                 </li>
                 <li>
-                  <a>Power Supply Unit</a>
+                  <Link href="/category/power-supply-unit">
+                    <p>Power Supply Unit</p>
+                  </Link>
                 </li>
                 <li>
-                  <a>Storage Device</a>
+                  <Link href="/category/storage-device">
+                    <p>Storage Device</p>
+                  </Link>
                 </li>
                 <li>
-                  <a>Monitor</a>
+                  <Link href="/category/monitor">
+                    <p>Monitor</p>
+                  </Link>
                 </li>
                 <li>
-                  <a>Others</a>
+                  <Link href="/">
+                    <p>Others</p>
+                  </Link>
                 </li>
               </ul>
             </details>

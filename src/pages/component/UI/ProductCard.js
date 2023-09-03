@@ -26,7 +26,7 @@ export default function ProductCard({ product }) {
           </span>
         </p>
         <div className="card-actions justify-end">
-          <Link href={`product/${product?._id}`}>
+          <Link href={`/product/${product?._id}`}>
             <button className="btn btn-primary">Details</button>
           </Link>
         </div>
