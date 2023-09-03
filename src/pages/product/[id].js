@@ -1,7 +1,11 @@
 import RootLayout from "../component/Layouts/RootLayout";
+import Loader from "../component/UI/Loader";
 import ProductDetailsCard from "../component/UI/ProductDetailsCard";
 
 export default function ProductDetails({ product }) {
+  if (!product) {
+    return <Loader></Loader>;
+  }
   return (
     <div className="py-5">
       <h1 className="text-2xl text-center my-5 font-semibold">

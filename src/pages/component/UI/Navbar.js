@@ -1,11 +1,9 @@
-"use client";
-
 import { signOut, useSession } from "next-auth/react";
 import Link from "next/link";
 
 export default function Navbar() {
   const { data: session } = useSession();
-  console.log(session);
+  // console.log(session);
   return (
     <div className="navbar bg-indigo-500 text-white">
       <div className="navbar-start">

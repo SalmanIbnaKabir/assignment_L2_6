@@ -3,6 +3,7 @@ import RootLayout from "@/pages/component/Layouts/RootLayout";
 import Carousel from "./component/UI/Carousel";
 import ProductCard from "./component/UI/ProductCard";
 import CategoryCard from "./component/UI/CategoryCard";
+import Loader from "./component/UI/Loader";
 
 export default function HomePage({ products }) {
   const categoryData = [
@@ -30,6 +31,9 @@ export default function HomePage({ products }) {
     { name: "Monitor", href: "/category/monitor", image: "/image/monitor.png" },
   ];
 
+  if (!products) {
+    return <Loader></Loader>;
+  }
   const limitProducts = products.slice(0, 8);
   return (
     <div>

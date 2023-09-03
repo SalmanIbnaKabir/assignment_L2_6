@@ -54,10 +54,7 @@ export default function PcBuilder() {
 
         // Render the SelectedProduct component for each matching product
         return matchingProducts.map((product, index) => (
-          <SelectedProduct
-            key={`${category.href}-${index}`}
-            product={product}
-          />
+          <SelectedProduct key={index} product={product} />
         ));
       })}
       {/* Render Choose components for categories with no products */}
@@ -69,8 +66,6 @@ export default function PcBuilder() {
         if (matchingProducts.length === 0) {
           return <Choose category={category} key={category.href} />;
         }
-
-        return null;
       })}
       <button
         disabled={!isBuildComplete}

@@ -1,4 +1,3 @@
-"use client";
 export default function Footer() {
   return (
     <footer className="footer p-10 flex justify-around flex-wrap bg-indigo-500 text-white ">
