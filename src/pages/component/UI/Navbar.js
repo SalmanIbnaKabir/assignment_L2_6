@@ -1,8 +1,11 @@
 "use client";
 
+import { signOut, useSession } from "next-auth/react";
 import Link from "next/link";
 
 export default function Navbar() {
+  const { data: session } = useSession();
+  console.log(session);
   return (
     <div className="navbar bg-indigo-500 text-white">
       <div className="navbar-start">
@@ -27,6 +30,9 @@ export default function Navbar() {
             tabIndex={1}
             className="menu menu-sm text-black dropdown-content mt-3 z-[1] bg-indigo-200 p-2 shadow  rounded-box w-52"
           >
+            <li>
+              <a>Login</a>
+            </li>
             <li>
               <a>Categories</a>
               <ul className="p-2">
@@ -117,6 +123,22 @@ export default function Navbar() {
               </ul>
             </details>
           </li>
+
+          {session?.user ? (
+            <li>
+              <button
+                onClick={() => signOut({ callbackUrl: "/" })}
+                type="primary"
+                danger
+              >
+                Logout
+              </button>
+            </li>
+          ) : (
+            <li>
+              <Link href="/login">Login</Link>
+            </li>
+          )}
         </ul>
       </div>
       <div className="navbar-end ">

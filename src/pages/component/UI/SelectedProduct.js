@@ -8,9 +8,10 @@ export default function SelectedProduct({ product }) {
       </div>
       <div>
         <p>{product.name}</p>
+        <p>{product.category}</p>
       </div>
       <div>
-        <p>{product.price}</p>
+        <p className="text-orange-600">{product.price}</p>
       </div>
     </div>
   );

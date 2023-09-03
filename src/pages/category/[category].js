@@ -1,7 +1,5 @@
-import React from "react";
 import RootLayout from "../component/Layouts/RootLayout";
 import ProductCard from "../component/UI/ProductCard";
-import { useRouter } from "next/router";
 
 export default function Category({ category }) {
   // console.log(category);

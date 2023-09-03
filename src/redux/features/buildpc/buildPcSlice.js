@@ -19,8 +19,11 @@ const pcBuildSlice = createSlice({
         state.products.push(productToAdd);
       }
     },
+    removeAllProducts: (state) => {
+      state.products = [];
+    },
   },
 });
 
-export const { addToProduct } = pcBuildSlice.actions;
+export const { addToProduct, removeAllProducts } = pcBuildSlice.actions;
 export default pcBuildSlice.reducer;

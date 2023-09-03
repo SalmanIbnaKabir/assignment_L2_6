@@ -1,11 +1,13 @@
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 
 import RootLayout from "../component/Layouts/RootLayout";
 import Choose from "../component/UI/Choose";
 import SelectedProduct from "../component/UI/SelectedProduct";
+import { removeAllProducts } from "@/redux/features/buildpc/buildPcSlice";
 
 export default function PcBuilder() {
   const { products } = useSelector((state) => state.pcBuild);
+  const dispatch = useDispatch();
   // console.log(products);
 
   const categoryData = [
@@ -36,9 +38,9 @@ export default function PcBuilder() {
       image: "/image/monitor.png",
     },
   ];
-  const hasProductForCategory = (categoryName) => {
-    return products.find((product) => product.category === categoryName);
-  };
+  // const hasProductForCategory = (categoryName) => {
+  //   return products.find((product) => product.category === categoryName);
+  // };
 
   const isBuildComplete = products.length >= 5;
   return (
@@ -74,6 +76,7 @@ export default function PcBuilder() {
         disabled={!isBuildComplete}
         className="btn btn-outline btn-secondary"
         onClick={() => {
+          dispatch(removeAllProducts());
           alert("Build Complete Successfully");
         }}
       >
