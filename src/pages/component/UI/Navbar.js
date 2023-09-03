@@ -120,7 +120,9 @@ export default function Navbar() {
         </ul>
       </div>
       <div className="navbar-end ">
-        <a className="btn  btn-secondary"> PC Builder</a>
+        <Link href="/pc-builder">
+          <p className="btn  btn-secondary"> Pc Builder</p>
+        </Link>
       </div>
     </div>
   );

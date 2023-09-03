@@ -28,7 +28,7 @@ export const getStaticPaths = async () => {
   }));
   // console.log(paths);
 
-  return { paths, fallback: false };
+  return { paths, fallback: true };
 };
 
 // get product details

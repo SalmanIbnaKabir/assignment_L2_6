@@ -1,12 +1,15 @@
 import React from "react";
 import RootLayout from "../component/Layouts/RootLayout";
 import ProductCard from "../component/UI/ProductCard";
+import { useRouter } from "next/router";
 
 export default function Category({ category }) {
   // console.log(category);
+  // const router = useRouter();
+  // console.log(router);
   return (
     <div>
-      <h1 className="text-2xl text-center my-5 font-semibold">
+      <h1 className="text-2xl text-center my-5 font-semibold ">
         Featured Products
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  gap-4 lg:container my-5 mx-auto">

@@ -16,7 +16,7 @@ export default function ProductDetailsCard({ product }) {
     reviews,
   } = product;
 
-  console.log(reviews);
+  // console.log(reviews);
   return (
     <div className="lg:container mx-auto">
       <div className="card lg:card-side bg-base-100  shadow-xl">
@@ -58,7 +58,7 @@ export default function ProductDetailsCard({ product }) {
         </div>
       </div>
       <h1 className="text-2xl text-center my-5 font-semibold">Reviews</h1>
-      <div className="card-actions flex-col justify-center py-5">
+      <div className="card-actions flex-col justify-center gap-5 ">
         {reviews.map((review, idx) => (
           <Reviews review={review} key={idx} />
         ))}
