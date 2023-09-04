@@ -2,6 +2,7 @@ This is a [Next.js](https://nextjs.org/) project tailwind with [`create-next-app
 
 ## Getting Started
 
+clone project code 
 First, run the development server:
 
 ```bash
