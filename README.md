@@ -20,7 +20,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## This is a PC Builder website [Frontend Live Link](https://pc-builder-frontend-xi.vercel.app/)
 
-## Frontend GitHub [Code Link](https://github.com/SalmanIbnaKabir/assignment_L2_60)
+## Frontend GitHub [Code Link](https://github.com/SalmanIbnaKabir/assignment_L2_6)
 ## Backend GitHub [Code Link](https://github.com/SalmanIbnaKabir/assignment_L2_6_backend)
 
 ## Project description 
