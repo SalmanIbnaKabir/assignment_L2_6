@@ -1,7 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
+import Loader from "./Loader";
 
 export default function CategoryCard({ category }) {
+  if (!category) {
+    return <Loader></Loader>;
+  }
   return (
     <Link href={category?.href}>
       <div className="card w-72 bg-base-100 shadow-xl">

@@ -1,3 +1,4 @@
+import Head from "next/head";
 import RootLayout from "../component/Layouts/RootLayout";
 import ProductCard from "../component/UI/ProductCard";
 
@@ -7,6 +8,13 @@ export default function Category({ category }) {
   // console.log(router);
   return (
     <div>
+      <Head>
+        <title>PC-Builder {category[0]?.category}</title>
+        <meta
+          name="description"
+          content="This is pc builder website of  Sik Tanzid made by next-js"
+        />
+      </Head>
       <h1 className="text-2xl text-center my-5 font-semibold ">
         Featured Products
       </h1>

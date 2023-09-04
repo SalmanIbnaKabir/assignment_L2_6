@@ -28,9 +28,25 @@ export default function Navbar() {
             tabIndex={1}
             className="menu menu-sm text-black dropdown-content mt-3 z-[1] bg-indigo-200 p-2 shadow  rounded-box w-52"
           >
-            <li>
-              <a>Login</a>
-            </li>
+            {session?.user ? (
+              <li>
+                <button
+                  onClick={() =>
+                    signOut({
+                      callbackUrl: "https://pc-builder-frontend-xi.vercel.app",
+                    })
+                  }
+                  type="primary"
+                  danger
+                >
+                  Logout
+                </button>
+              </li>
+            ) : (
+              <li>
+                <Link href="/login">Login</Link>
+              </li>
+            )}
             <li>
               <a>Categories</a>
               <ul className="p-2">
@@ -125,7 +141,11 @@ export default function Navbar() {
           {session?.user ? (
             <li>
               <button
-                onClick={() => signOut({ callbackUrl: "/" })}
+                onClick={() =>
+                  signOut({
+                    callbackUrl: "https://pc-builder-frontend-xi.vercel.app",
+                  })
+                }
                 type="primary"
                 danger
               >

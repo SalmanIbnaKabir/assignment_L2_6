@@ -1,3 +1,4 @@
+import Head from "next/head";
 import RootLayout from "../component/Layouts/RootLayout";
 import Loader from "../component/UI/Loader";
 import ProductDetailsCard from "../component/UI/ProductDetailsCard";
@@ -8,6 +9,13 @@ export default function ProductDetails({ product }) {
   }
   return (
     <div className="py-5">
+      <Head>
+        <title>PC-Builder {product?.category}</title>
+        <meta
+          name="description"
+          content="This is pc builder website of  Sik Tanzid made by next-js"
+        />
+      </Head>
       <h1 className="text-2xl text-center my-5 font-semibold">
         Product Details
       </h1>

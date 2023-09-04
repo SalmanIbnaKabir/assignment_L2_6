@@ -11,7 +11,8 @@ export default function ProductCard({ product }) {
           alt="next img"
           width={500}
           height={500}
-          layout="responsive"
+          loading="lazy"
+          unoptimized
         />
       </figure>
       <div className="card-body">
@@ -22,7 +23,7 @@ export default function ProductCard({ product }) {
         <p>
           Price:{" "}
           <span className="text-orange-500  font-semibold">
-            {product?.price}
+            {product?.price}$
           </span>
         </p>
         <div className="card-actions justify-end">

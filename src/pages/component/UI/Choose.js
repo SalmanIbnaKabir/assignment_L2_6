@@ -1,7 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
+import Loader from "./Loader";
 
 export default function Choose({ category }) {
+  if (!category) {
+    return <Loader></Loader>;
+  }
   return (
     <div className="flex flex-nowrap justify-between items-center p-5 border rounded-lg border-indigo-200   ">
       <div className="bg-indigo-100 p-2 rounded">

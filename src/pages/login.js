@@ -1,9 +1,17 @@
+import Head from "next/head";
 import RootLayout from "./component/Layouts/RootLayout";
 import { signIn } from "next-auth/react";
 
 export default function Login() {
   return (
     <div>
+      <Head>
+        <title>PC-Builder Login</title>
+        <meta
+          name="description"
+          content="This is pc builder website of  Sik Tanzid made by next-js"
+        />
+      </Head>
       <div className="hero min-h-screen bg-base-200">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <div className="text-center lg:text-left">
@@ -18,7 +26,11 @@ export default function Login() {
             <div className="card-body items-center">
               <div>
                 <button
-                  onClick={() => signIn("google", { callbackUrl: "/" })}
+                  onClick={() =>
+                    signIn("google", {
+                      callbackUrl: "https://pc-builder-frontend-xi.vercel.app",
+                    })
+                  }
                   className="btn btn-outline btn-secondary"
                 >
                   Login with Google
@@ -26,7 +38,11 @@ export default function Login() {
               </div>
               <div>
                 <button
-                  onClick={() => signIn("github", { callbackUrl: "/" })}
+                  onClick={() =>
+                    signIn("github", {
+                      callbackUrl: "https://pc-builder-frontend-xi.vercel.app",
+                    })
+                  }
                   className="btn btn-outline btn-secondary"
                 >
                   Login with Github

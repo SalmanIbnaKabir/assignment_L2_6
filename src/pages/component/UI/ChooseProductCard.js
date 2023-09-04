@@ -33,7 +33,7 @@ export default function ChooseProductCard({ product }) {
         <p>
           Price:{" "}
           <span className="text-orange-500  font-semibold">
-            {product?.price}
+            {product?.price}$
           </span>
         </p>
         <div className="card-actions justify-end">

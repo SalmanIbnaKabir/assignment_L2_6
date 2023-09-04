@@ -4,6 +4,7 @@ import RootLayout from "../component/Layouts/RootLayout";
 import Choose from "../component/UI/Choose";
 import SelectedProduct from "../component/UI/SelectedProduct";
 import { removeAllProducts } from "@/redux/features/buildpc/buildPcSlice";
+import Head from "next/head";
 
 export default function PcBuilder() {
   const { products } = useSelector((state) => state.pcBuild);
@@ -45,6 +46,14 @@ export default function PcBuilder() {
   const isBuildComplete = products.length >= 5;
   return (
     <div className="md:container md:mx-auto flex flex-col gap-5  my-5">
+      <Head>
+        <title>PC-Builder Build</title>
+        <meta
+          name="description"
+          content="This is pc builder website of  Sik Tanzid made by next-js"
+        />
+      </Head>
+
       <h1 className="text-2xl text-center my-5 font-semibold"> PC Builder</h1>
       {categoryData.map((category) => {
         // Find products that match the current category

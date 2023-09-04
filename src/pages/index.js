@@ -4,6 +4,7 @@ import Carousel from "./component/UI/Carousel";
 import ProductCard from "./component/UI/ProductCard";
 import CategoryCard from "./component/UI/CategoryCard";
 import Loader from "./component/UI/Loader";
+import Head from "next/head";
 
 export default function HomePage({ products }) {
   const categoryData = [
@@ -37,6 +38,14 @@ export default function HomePage({ products }) {
   const limitProducts = products.slice(0, 8);
   return (
     <div>
+      <Head>
+        <title>PC-Builder Home</title>
+        <meta
+          name="description"
+          content="This is pc builder website of  Sik Tanzid made by next-js"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Head>
       <Carousel />
       <div className="bg-indigo-100 py-5">
         <h1 className="text-2xl text-center my-5 font-semibold">
